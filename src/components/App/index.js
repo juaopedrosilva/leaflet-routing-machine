@@ -1,9 +1,7 @@
-import React from "react";
+import React from "react"
 
-import MainMap from "../MainMap";
+import MainMap from "../MainMap"
 
-const App = props => {
-  return <MainMap />;
-};
+const App = () => <MainMap /> 
 
-export default App;
+export default App

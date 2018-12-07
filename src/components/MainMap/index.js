@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import { Map, TileLayer } from "react-leaflet";
+import React, { Component } from "react"
+import { Map, TileLayer } from "react-leaflet"
 
-import MapRouting from "../MapRouting";
+import MapRouting from "../MapRouting"
 
 class MainMap extends Component {
   constructor() {
-    super();
-    this.map = React.createRef();
+    super()
+    this.map = React.createRef()
   }
 
   render() {
@@ -19,8 +19,8 @@ class MainMap extends Component {
 
         <MapRouting map={this.map} />
       </Map>
-    );
+    )
   }
 }
 
-export default MainMap;
+export default MainMap
